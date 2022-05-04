@@ -26,8 +26,8 @@ public class initialize {
 		}
 		initPrint();
 		board currentNode = new board(current);	//instances local to creation
-		BFS sample_space = new BFS(currentNode);
-		sample_space.search();
+		BFS start = new BFS(currentNode);
+		start.search();				//changed to "start" from "sample_space" in github, if nonfunctional, revert back
 
 	}
 
